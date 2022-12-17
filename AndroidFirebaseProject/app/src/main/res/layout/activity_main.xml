@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckg2"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:text="Bem-Vindo ao Travel App"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        android:id="@+id/btn_login_screen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_skip_screen1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_button01"
+        android:backgroundTint="@color/azul"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_skip_screen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button02"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Continue sem cadastro"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500" />
+
+
+
+
+</RelativeLayout>

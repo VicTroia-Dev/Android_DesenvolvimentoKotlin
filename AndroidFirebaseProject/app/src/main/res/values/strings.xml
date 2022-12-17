@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidFirebaseProject</string>
+    <string name="novo_usuario">Usuário novo? <b>Cadastre-se</b></string>
+</resources>
